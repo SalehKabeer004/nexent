@@ -1,0 +1,38 @@
+@media only screen and (max-width:1024px) {
+    .header .navigations ul {
+        display: none;
+    }
+
+    .helping .right {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 60px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .logo img {
+        width: 200px;
+    }
+
+    .hero .container {
+        flex-direction: column-reverse;
+    }
+
+    .pixelgrade .container {
+        flex-direction: column;
+    }
+
+    .pixelgrade .right {
+        align-items: center;
+        text-align: center;
+    }
+
+    .helping .container {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+
+}
